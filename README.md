@@ -1,2 +1,0 @@
-# Beligte Rygzenov
-Ведьмак-шоп

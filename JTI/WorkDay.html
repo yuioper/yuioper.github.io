@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="Introduction.html">
+        <link rel="prev" href="WarehouseSpec.html">
       
       
-        <link rel="next" href="Technician.html">
+        <link rel="next" href="../bot/bot.html">
       
       
       <link rel="icon" href="../logo.ico">
@@ -20,7 +20,7 @@
     
     
       
-        <title>Кладовщик - Документация</title>
+        <title>Рабочий день - Документация</title>
       
     
     
@@ -110,7 +110,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Кладовщик
+              Рабочий день
             
           </span>
         </div>
@@ -395,30 +395,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Кладовщик
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="Storekeeper.html" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="Storekeeper.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -427,46 +407,6 @@
   
 
       </a>
-      
-        
-
-  
-
-<nav class="md-nav md-nav--secondary" aria-label="На этой странице">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      На этой странице
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      Работа с документами
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    <span class="md-ellipsis">
-      Как провести документ
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -518,10 +458,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="WorkDay.html" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Рабочий день
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="WorkDay.html" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -530,6 +490,46 @@
   
 
       </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="На этой странице">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      На этой странице
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Как создать рабочий день
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Что такое мероприятие
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -705,7 +705,7 @@
         <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
-      Работа с документами
+      Как создать рабочий день
     </span>
   </a>
   
@@ -714,7 +714,7 @@
         <li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
-      Как провести документ
+      Что такое мероприятие
     </span>
   </a>
   
@@ -735,46 +735,69 @@
                   
 
 
-<h1 id="_1"><strong>Кладовщик</strong></h1>
-<h2 id="_2"><strong>Работа с документами</strong></h2>
+<h1 id="_1"><strong>Рабочий день</strong></h1>
+<blockquote>
+<p>Рабочий день — это список сервисов для склада, созданный координатором.</p>
+</blockquote>
+<h2 id="_2"><strong>Как создать рабочий день</strong></h2>
 <ol>
-<li>
-<p><strong>Документ формируется автоматически.</strong><br />
-   После проведения заявки создаётся складской документ.</p>
+<li>Перейдите во вкладку <strong>Рабочий день</strong>.</li>
+<li>Нажмите на кнопку <strong>Создать рабочий день</strong>.</li>
+<li>В открывшемся окне:<ol>
+<li>Назначьте бригадира, ответственного за выполнение работы.</li>
+<li>Выберите склад, где буду проводиться работы.</li>
+<li>Выберите сервисы, нажав на <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 3h18v18H3zm2 2v14h14V5z"/></svg></span>. Выбранный сервис помечается <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2m0 2v14H5V5zm-9 12-4-4 1.41-1.42L10 14.17l6.59-6.59L18 9"/></svg></span>.</li>
+</ol>
 </li>
 <li>
-<p><strong>Срок действия документа — 5 дней.</strong><br />
-   За это время вы должны завершить работу по приёму или выдаче оборудования.</p>
-</li>
-<li>
-<p><strong>Проводите документ только по факту.</strong>  </p>
-<ul>
-<li>При приёме оборудования — после его фактического получения.  </li>
-<li>При выдаче — после передачи оборудования.  </li>
-</ul>
-</li>
-<li>
-<p><strong>Если документ просрочился:</strong>  </p>
-<ul>
-<li>Вы не можете провести документ задним числом.  </li>
-<li>Для исправления документа нужно распровести заявку. Обратитесь к координатору, чтобы решить проблему.  </li>
-</ul>
-</li>
-<li>
-<p><strong>Оборудование без заявки и документов не принимается</strong>  </p>
-<ul>
-<li>Если такое оборудование привезли, сообщите координатору.   </li>
-</ul>
+<p>Сохраните рабочий день, нажав на Кнопку</p>
+<p><figure markdown="span" id="side">
+  <a class="glightbox" href="../img/create_wd.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Изображение" src="../img/create_wd.png" /></a>
+<br />
+<figcaption>Создание рабочего дня</figcaption></p>
 </li>
 </ol>
-<h2 id="_3"><strong>Как провести документ</strong></h2>
-<p>Чтобы провести складской документ:</p>
+</figure>
+<h2 id="_3"><strong>Что такое мероприятие</strong></h2>
+<blockquote>
+<p>Мероприятие — это работа по обеспечению деятельности подразделений. Оно позволяет отслеживать кто и за что несёт ответственность на всей протяженности рабочего дня.</p>
+</blockquote>
+<figure id="side">
+  <a class="glightbox" href="../img/merop.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Изображение" src="../img/merop.png" /></a>
+  <figcaption>Мероприятия идут строго друг за другом</figcaption>
+</figure>
+<p>Например, после создания рабочего дня <strong>координатором</strong> должны создаться документы на перемещение оборудования из зоны приёмки в зону ремонта <strong>кладовщиком</strong>. </p>
+<figure id="side">
+  <a class="glightbox" href="../img/relocation.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Изображение" src="../img/relocation.png" /></a>
+  <figcaption>Мероприятие «Перемещение в зону ремонта»</figcaption>
+</figure>
+<p>Для разграничения ответственности и понимания на каком этапе находится рабочий день и вводятся мероприятия.</p>
+<p>В каждое мероприятие можно переходить и отслеживать его статус:</p>
+<figure id="side">
+  <a class="glightbox" href="../img/doingtask.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Изображение" src="../img/doingtask.png" /></a>
+  <figcaption>Мероприятие «Выполнение задач»</figcaption>
+</figure>
+<p>В задачу на рабочий день исполнитель может добавлять ремонтные сервисы. </p>
+<p>Чтобы добавить новые ремонтные сервисы, нажмите на кнопку <strong><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6z"/></svg></span> Добавить ремонт</strong> и в открывшемся окне укажите:</p>
 <ol>
-<li>Откройте вкладку <strong><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 16v-3c0-1.11-.89-2-2-2h-6V8h2V2H9v6h2v3H5c-1.11 0-2 .89-2 2v3H1v6h6v-6H5v-3h6v3H9v6h6v-6h-2v-3h6v3h-2v6h6v-6zM11 4h2v2h-2zM5 20H3v-2h2zm8 0h-2v-2h2zm8 0h-2v-2h2z"/></svg></span> Склад документы.</strong></li>
-<li>В раскрывшемся меню выберите тип документа: на поступление или списание.</li>
-<li>Дважды нажмите на нужный документ.</li>
-<li>В открывшемся окне документа нажмите на кнопку <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> Провести.</li>
+<li>Наименование сделанного сервиса.</li>
+<li>Оборудование.</li>
+<li>Количество оказанных услуг.</li>
 </ol>
+<figure id="side">
+  <a class="glightbox" href="../img/addingservice.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Изображение" src="../img/addingservice.png" /></a>
+  <figcaption>Добавление дополнительного ремонта</figcaption>
+</figure>
+<p>После выполнения задачи и проверки фотоотчёта оператором, кладовщик должен создать документ на ремонт, присвоить новое состояние оборудованию:</p>
+<figure id="side">
+  <a class="glightbox" href="../img/remont.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Изображение" src="../img/remont.png" /></a>
+  <figcaption>Мероприятие «Проведение документа дефектовки»</figcaption>
+</figure>
+<p>Затем отремонтированное оборудование необходимо переместить в зону погрузки, если оно ещё не там. Мероприятие не будет создаваться без оснований.</p>
+<figure id="side">
+  <a class="glightbox" href="../img/relocant.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Изображение" src="../img/relocant.png" /></a>
+  <figcaption>Мероприятие «Перемещение в зону погрузки»</figcaption>
+</figure>
 
 
 

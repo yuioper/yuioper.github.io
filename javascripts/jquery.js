@@ -10626,7 +10626,7 @@ jQuery.holdReady = function( hold ) {
 		jQuery.readyWait++;
 	} else {
 		jQuery.ready( true );
-	}
+	}1
 };
 
 jQuery.isArray = Array.isArray;

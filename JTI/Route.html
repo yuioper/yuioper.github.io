@@ -817,48 +817,111 @@
   <figcaption>Мероприятия идут строго друг за другом</figcaption>
 </figure>
 <h3 id="_5">Очерёдность мероприятий</h3>
+
+
 <table>
 <thead>
 <tr>
-<th>Мероприятие</th>
-<th>Доп описание</th>
-<th>Условие выполнения</th>
-<th>Исполнитель</th>
+<th style="text-align: left;">Мероприятие</th>
+<th style="text-align: left;">Доп описание</th>
+<th style="text-align: left;">Условие выполнения</th>
+<th style="text-align: left;">Исполнитель</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Создание маршрута</td>
-<td></td>
-<td>Всегда выполнено</td>
-<td>Координатор</td>
+<td style="text-align: left;">Создание маршрута</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Всегда выполнено</td>
+<td style="text-align: left;">Координатор</td>
 </tr>
 <tr>
-<td>Подтверждение маршрута исполнителем</td>
-<td></td>
-<td>Назначен исполнитель маршрута</td>
-<td>Бригадир</td>
+<td style="text-align: left;">Подтверждение маршрута исполнителем</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Назначен исполнитель маршрута</td>
+<td style="text-align: left;">Бригадир</td>
 </tr>
 <tr>
-<td>Создание заявок на списание</td>
-<td></td>
-<td>Создать заявки для всех задач на монтаж</td>
-<td>Координатор</td>
+<td style="text-align: left;">Создание заявок на списание</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Создать заявки для всех задач на монтаж</td>
+<td style="text-align: left;">Координатор</td>
 </tr>
 <tr>
-<td>Проведение заявок на списание</td>
-<td></td>
-<td>Провести все заявки на монтажи для всех задач</td>
-<td>Специалист складского учёта</td>
+<td style="text-align: left;">Проведение заявок на списание</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Провести все заявки на монтажи для всех задач в маршруте</td>
+<td style="text-align: left;">Специалист склада</td>
 </tr>
 <tr>
-<td>Печать документов</td>
-<td>Печать Актов приема передачи и ТТН</td>
-<td>В любой момент</td>
-<td>Кладовщик</td>
+<td style="text-align: left;">Печать документов</td>
+<td style="text-align: left;">Печать Актов приема передачи и ТТН</td>
+<td style="text-align: left;">В любой момент</td>
+<td style="text-align: left;">Кладовщик</td>
+</tr>
+<tr>
+<td style="text-align: left;">Подбор грузовых мест</td>
+<td style="text-align: left;">Печать сборочного листа</td>
+<td style="text-align: left;">В любой момент</td>
+<td style="text-align: left;">Кладовщик</td>
+</tr>
+<tr>
+<td style="text-align: left;">Проведение документов списания</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Все документы проведены</td>
+<td style="text-align: left;">Кладовщик</td>
+</tr>
+<tr>
+<td style="text-align: left;">Выполнение задач на маршруте</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Всем сервисам присвоен статус "На проверке" или конечный статус (Выполнен/Отменен агентством/Холостой выезд)</td>
+<td style="text-align: left;">Техник</td>
+</tr>
+<tr>
+<td style="text-align: left;">Подтверждение ХП и демонтажей</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Всем сервисам присвоен любой статус, отличный от "На проверке"</td>
+<td style="text-align: left;">Оператор</td>
+</tr>
+<tr>
+<td style="text-align: left;">Создание заявок на поступление</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Для всех задач, где есть демонтажные работы созданы заявки</td>
+<td style="text-align: left;">Координатор</td>
+</tr>
+<tr>
+<td style="text-align: left;">Проведение заявок на поступление</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Все заявки проведены</td>
+<td style="text-align: left;">Специалист склада</td>
+</tr>
+<tr>
+<td style="text-align: left;">Проведение документов поступления</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Все документы проведены</td>
+<td style="text-align: left;">Кладовщик</td>
+</tr>
+<tr>
+<td style="text-align: left;">Отмена документов списания (остаток с маршрута)</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Все документы распроведены</td>
+<td style="text-align: left;">Кладовщик</td>
+</tr>
+<tr>
+<td style="text-align: left;">Отмена заявок списания (остаток с маршрута)</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Отменить проведение заявок, а также отменить саму заявку, для задач которые не были выполнены в этом маршруте</td>
+<td style="text-align: left;">Специалист склада</td>
+</tr>
+<tr>
+<td style="text-align: left;">Проверка ФО</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Всем сервисам присвоен любой статус, отличный от "На проверке"</td>
+<td style="text-align: left;">Оператор</td>
 </tr>
 </tbody>
 </table>
+                
 <p>Например, после создания <strong>координатором</strong> маршрута, <strong>исполнитель</strong> его подтверждает и приступает к выполнению. </p>
 <figure id="side">
   <a class="glightbox" href="../img/route_job.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Изображение" src="../img/route_job.png" /></a>

@@ -262,3 +262,8 @@ tr:hover {
     font-weight: bold;
     text-align: center;
 }
+
+.intro{
+    display: flex;
+    align-items: center;
+}
